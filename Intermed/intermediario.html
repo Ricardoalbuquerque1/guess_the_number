@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerte o número</title>
+    <link rel="stylesheet" href="intermed.css">
+</head>
+
+<body>
+    <main>
+        <h1 class="title-main">Qual porta você irá escolher?</h1>
+        <div class="escolhas">
+            <img src="porta1.jpg">
+            <img src="porta2.jpg">
+            <img src="porta3.jpg">
+        </div>
+
+        <div class="buttons">
+            <input type="button" value="Porta 1" id="out1" onclick="porta1()">
+            <input type="button" value="Porta 2" id="out2" onclick="porta2()">
+            <input type="button" value="Porta 3" id="out3" onclick="porta3()">
+        </div>
+        <div>
+            <h2 class="change" id="outErro">Acertos:</h2>
+            <h3 class="exibe" id="respAcerto">0/3</h3>
+        </div>
+        <input type="button" value="Jogar novamente" class="oculto" id="outAgain">
+    </main>
+    <script src="intermed.js"></script>
+</body>
+
+</html>
